@@ -1,6 +1,7 @@
 import { defineConfig } from 'vite';
 import laravel from 'laravel-vite-plugin';
 import vuePlugin from '@vitejs/plugin-vue'
+import path from 'node:path'
 
 export default defineConfig({
     resolve: {
